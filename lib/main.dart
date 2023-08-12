@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_seller_app/splashScreen/splashScreen.dart';
+import 'package:foodpanda_seller_app/splashScreen/splash_screen.dart';
 
 Future<void> main() async
 {
@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Sellers App',
       theme: ThemeData(
         primarySwatch: Colors.blue,

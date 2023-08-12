@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import "package:flutter/material.dart";
 
 class CustomTextField extends StatelessWidget {
@@ -7,7 +9,7 @@ class CustomTextField extends StatelessWidget {
   bool? isObsecre = true;
   bool? enabled = true;
 
-  CustomTextField({
+  CustomTextField({super.key, 
     this.controller,
     this.data,
     this.hintText,
